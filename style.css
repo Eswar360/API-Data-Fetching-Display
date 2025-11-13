@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ec6c1c, #e3ea21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(109, 223, 240, 0.914);
+  backdrop-filter: blur(8px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #0a0505;
+  width: 350px;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffcb05;
+  color: #2a75bb;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #fff35e;
+}
+
+#pokemonInfo {
+  margin-top: 20px;
+}
+
+.pokemon-card {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pokemon-card img {
+  width: 120px;
+  height: 120px;
+}
